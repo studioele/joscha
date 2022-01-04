@@ -41,7 +41,7 @@ body {
 }
 
 a:hover {
-  font-weight: 400;
+  font-weight: 300;
   text-decoration:none;
   color: black;
 }
@@ -53,14 +53,28 @@ a:hover {
   font-family: 'Source Serif Pro', serif;
   /* font-family: 'Playfair Display', serif; */
   font-weight: 300;
+  font-size: 11pt;
   text-align: justify;
 }
 
+.image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.image img{
+      position: absolute;
+      max-width: auto;
+      max-height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+}
 
 /* FOOTER */
 .footer{
   /* font-family: 'Lato', sans-serif; */
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Source Serif Pro', serif;
   font-weight: 300;
   max-width: 1980px;
   margin: 50px 100px auto 100px;
