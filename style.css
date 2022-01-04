@@ -25,7 +25,7 @@ body {
   /* font-family: 'Lato', sans-serif; */
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Source Serif Pro', serif;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 .font-thin{
@@ -52,7 +52,7 @@ a:hover {
   /* font-family: 'Josefin Sans', sans-serif; */
   font-family: 'Source Serif Pro', serif;
   /* font-family: 'Playfair Display', serif; */
-  font-weight: 300;
+  font-weight: 200;
   font-size: 11pt;
   text-align: justify;
 }
