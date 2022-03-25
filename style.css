@@ -14,6 +14,13 @@ body {
   text-align: center;
 }
 
+.link_active  {
+  color: black;
+  text-align: center;
+  text-decoration: underline yellow 4px;
+}
+
+
 .nounderline {
   text-decoration: none;
 }
@@ -26,7 +33,11 @@ body {
   /* font-family: 'Josefin Sans', sans-serif; */
   /* font-family: 'Source Serif Pro', serif; */
   font-family: 'Barlow', sans-serif;
-  font-size: 16pt;
+  font-size: 14pt;
+}
+
+.navigation a:hover {
+  text-decoration: underline yellow 4px;
 }
 
 .font-thin{
@@ -35,13 +46,13 @@ body {
 }
 
 .font-regular{
-  font-weight: 200;
-  font-style: italic;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .font-bold{
-  font-weight: 300;
-  font-style: italic;
+  font-weight: 600;
+  /* font-style: italic; */
 }
 
 .font-extrabold{
@@ -51,14 +62,14 @@ body {
   letter-spacing: 3px;
 }
 
-a:hover {
+/* a:hover { */
   /* font-weight: 300; */
-  text-decoration: underline black 0.25px;
-  /* font-style: normal; */
+  /* text-decoration: underline black 0.25px; */
+  /* font-style: italic; */
   /* font-weight: 400; */
   /* text-decoration-style: wavy;   */
   /* color: black; */
-}
+/* } */
 
 .content{
   margin: auto 125px auto 125px;
@@ -71,9 +82,10 @@ a:hover {
   /* font-family: 'Playfair Display', serif; */
   font-family: 'Barlow', sans-serif;
   font-weight: 300;
-  font-size: 12pt;
+  /* font-size: 12pt; */
   text-align:justify;
 }
+
 
 .image{
     position:relative;
