@@ -91,6 +91,7 @@ a:hover {
 
 /* FOOTER */
 .footer{
+  max-width: 1980px;
   margin-left: 125px;
   /* font-family: 'Lato', sans-serif; */
   /* font-family: 'Source Serif Pro', serif; */
@@ -101,7 +102,7 @@ a:hover {
   height: 45px;
   bottom: 0;
   background-color: white;
-  font-size: 0.85rem;
+  font-size: 0.80rem;
 }
 
 .footer a{
