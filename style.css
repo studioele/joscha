@@ -11,12 +11,13 @@ body {
 
 .link  {
   color: black;
-  text-align: center;
+  text-align: left;
+  text-decoration: none;
 }
 
 .link_active  {
   color: black;
-  text-align: center;
+  text-align: left;
   text-decoration: underline yellow 4px;
 }
 
@@ -37,6 +38,7 @@ body {
 }
 
 .navigation a:hover {
+  color: black;
   text-decoration: underline yellow 4px;
 }
 
