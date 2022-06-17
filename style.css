@@ -58,10 +58,10 @@ body {
 }
 
 .font-extrabold{
-  font-weight: 900;
+  font-weight: 600;
   /* font-style: italic; */
   text-transform: capitalize;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 /* a:hover { */
